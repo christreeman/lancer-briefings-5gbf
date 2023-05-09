@@ -157,10 +157,10 @@ export default {
         "system": "Phi-4",
         "gate": "Phi-4",
         "ring": "Denali-Line",
-        "headerTitle": "5BFG",
+        "headerTitle": "5GBF",
         "headerSubtitle": "Union Information Bureau",
         "subheaderTitle": "Intelligence Operatives",
-        "subheaderSubtitle": "5-Bravo-Foxtrot-Golf",
+        "subheaderSubtitle": "5-Golf-Bravo-Foxtrot",
       },
       "options":{
         "eventsMarkdownPerMission": true
