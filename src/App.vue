@@ -158,9 +158,9 @@ export default {
         "gate": "Phi-4",
         "ring": "Denali-Line",
         "headerTitle": "5BFG",
-        "headerSubtitle": "Union Information Bureau Squad",
+        "headerSubtitle": "Union Information Bureau",
         "subheaderTitle": "Intelligence Operatives",
-        "subheaderSubtitle": "Five-Bravo-Foxtrot-Golf",
+        "subheaderSubtitle": "5-Bravo-Foxtrot-Golf",
       },
       "options":{
         "eventsMarkdownPerMission": true
