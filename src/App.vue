@@ -89,14 +89,24 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
+      "mission_slug": "003",
       "current_md": "",
       "events": "",
       "missions": [
         {
           "slug": "001",
-          "name": "Bug-Hunt",
-          "status": "start"
+          "name": "Establish FOB-Saber",
+          "status": "Successful"
+        },
+        {
+          "slug": "002",
+          "name": "Recover VIPs",
+          "status": "Successful"
+        },
+        {
+          "slug": "003",
+          "name": "Investigate Strange Signal",
+          "status": "In Progress"
         },
       ],
       "pilots": [
