@@ -17,22 +17,23 @@
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+  <script src="src\assets\vanta_scripts\vanta.clouds.min.js"></script>
   <script>
-    VANTA.WAVES({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
+    VANTA.CLOUDS({
+      el: "#body",
+      mouseControls: false,
+      touchControls: false,
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x182325,
-      shininess: 10.00,
-      waveHeight: 40.00,
-      waveSpeed: 0.10,
-      zoom: 0.65
+      backgroundColor: 0x434343,
+      skyColor: 0x20b341,
+      cloudColor: 0xeb866d,
+      cloudShadowColor: 0x186b23,
+      sunColor: 0x816a4,
+      sunGlareColor: 0x422fd7,
+      sunlightColor: 0x401bd2,
+      speed: 1.90
     })
   </script>
 </body>
