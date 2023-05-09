@@ -152,15 +152,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Hercynia",
+        "planet": "Granduer",
         "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanokrim",
-        "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "system": "Phi-4",
+        "gate": "Phi-4",
+        "ring": "Denali-Line",
+        "headerTitle": "5BFG",
+        "headerSubtitle": "Union Information Bureau Squad",
+        "subheaderTitle": "Intelligence Operatives",
+        "subheaderSubtitle": "Five-Bravo-Foxtrot-Golf",
       },
       "options":{
         "eventsMarkdownPerMission": true
