@@ -96,17 +96,17 @@ export default {
         {
           "slug": "001",
           "name": "Establish FOB-Saber",
-          "status": "Successful"
+          "status": "success"
         },
         {
           "slug": "002",
           "name": "Recover VIPs",
-          "status": "Successful"
+          "status": "success"
         },
         {
           "slug": "003",
           "name": "Investigate Strange Signal",
-          "status": "In Progress"
+          "status": "start"
         },
       ],
       "pilots": [
