@@ -167,7 +167,7 @@ export default {
         },
       ],
       "header": {
-        "planet": "UN NEMI",
+        "planet": "U.N. NEMI",
         "year": "5014u",
         "system": "Phi-4",
         "gate": "Phi-4",
