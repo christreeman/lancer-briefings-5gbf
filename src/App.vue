@@ -106,6 +106,21 @@ export default {
         {
           "slug": "003",
           "name": "Investigate Strange Signal",
+          "status": "success"
+        },
+        {
+          "slug": "004",
+          "name": "Recover the USS ENNA's GalSim AI",
+          "status": "start"
+        },
+        {
+          "slug": "005",
+          "name": "Destory the SSC Printers on Norban",
+          "status": "start"
+        },
+        {
+          "slug": "006",
+          "name": "Capture or Eliminate Toren Eleppo",
           "status": "start"
         },
       ],
@@ -152,7 +167,7 @@ export default {
         },
       ],
       "header": {
-        "planet": "Granduer",
+        "planet": "UN NEMI",
         "year": "5014u",
         "system": "Phi-4",
         "gate": "Phi-4",
