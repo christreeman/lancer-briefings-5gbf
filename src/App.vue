@@ -89,7 +89,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "003",
+      "mission_slug": "006",
       "current_md": "",
       "events": "",
       "missions": [
@@ -167,7 +167,7 @@ export default {
         },
       ],
       "header": {
-        "planet": "U.N. NEMI",
+        "planet": "Wailan",
         "year": "5014u",
         "system": "Phi-4",
         "gate": "Phi-4",
