@@ -109,6 +109,11 @@ export default {
           "status": "success"
         },
         {
+          "slug": "006",
+          "name": "Capture or Eliminate Toren Eleppo",
+          "status": "start"
+        },
+        {
           "slug": "004",
           "name": "Recover the USS ENNA's GalSim AI",
           "status": "unselected"
@@ -117,11 +122,6 @@ export default {
           "slug": "005",
           "name": "Destory the SSC Printers on Norban",
           "status": "unselected"
-        },
-        {
-          "slug": "006",
-          "name": "Capture or Eliminate Toren Eleppo",
-          "status": "start"
         },
       ],
       "pilots": [

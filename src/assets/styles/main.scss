@@ -24,6 +24,7 @@ $mission-start: rgba(109, 109, 109, 1);
 $mission-partial: rgba(88, 34, 102, 1);
 $mission-success: rgba(34, 102, 98, 1);
 $mission-failure: rgba(176, 45, 45, 1);
+$mission-unselected: rgba(255, 255, 255, 0.5);
 
 //Pilot Roster Text
 $text-pilot-header: rgba(255, 255, 255, 0.67);
@@ -458,6 +459,10 @@ section .section-header {
 
   .start {
     background-color: $mission-start;
+  }
+
+  .unselected {
+    background-color: $mission-unselected;
   }
 
   .partial-success {
