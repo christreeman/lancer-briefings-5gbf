@@ -111,12 +111,12 @@ export default {
         {
           "slug": "004",
           "name": "Recover the USS ENNA's GalSim AI",
-          "status": "start"
+          "status": "unselected"
         },
         {
           "slug": "005",
           "name": "Destory the SSC Printers on Norban",
-          "status": "start"
+          "status": "unselected"
         },
         {
           "slug": "006",
