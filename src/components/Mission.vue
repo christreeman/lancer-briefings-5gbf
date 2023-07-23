@@ -27,7 +27,6 @@ export default {
 	},
 	computed: {
 		icon() {
-			if (this.mission.status === "unselected") return `/icons/mission-start.svg`
 			return `/icons/mission-${this.mission.status}.svg`
 		},
 		missionStatus() {
