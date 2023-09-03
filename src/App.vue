@@ -111,7 +111,7 @@ export default {
         {
           "slug": "006",
           "name": "Capture or Eliminate Toren Eleppo",
-          "status": "start"
+          "status": "success"
         },
         {
           "slug": "004",
@@ -167,7 +167,7 @@ export default {
         },
       ],
       "header": {
-        "planet": "Wailan",
+        "planet": "Phi-4",
         "year": "5014u",
         "system": "Phi-4",
         "gate": "Phi-4",
