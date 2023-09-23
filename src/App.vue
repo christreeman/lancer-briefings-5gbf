@@ -116,7 +116,7 @@ export default {
         {
           "slug": "004",
           "name": "Recover the USS ENNA's GalSim AI",
-          "status": "unselected"
+          "status": "start"
         },
         {
           "slug": "005",
