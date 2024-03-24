@@ -89,7 +89,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "004",
+      "mission_slug": "007",
       "current_md": "",
       "events": "",
       "missions": [
@@ -116,27 +116,32 @@ export default {
         {
           "slug": "004",
           "name": "Recover the USS ENNA's GalSim AI",
-          "status": "start"
+          "status": "success"
         },
         {
           "slug": "005",
           "name": "Destory the SSC Printers on Norban",
-          "status": "unselected"
+          "status": "failure"
+        },
+        {
+          "slug": "007",
+          "name": "Stop Fugitives from Escaping U.N. NEMI with GalSim AI",
+          "status": "failure"
         },
       ],
       "pilots": [
         {
-          "callsign": "Condor",
+          "callsign": "~~Condor~~",
           "alias": "Lotus Sun",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///NDL-C-DEEP-STATION//377308ad-ba23-410b-ae37-68a1fb5f8db4",
+          "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "IPS-N",
           "frame": "Zheng",
           "mech": "Roger Smith"
         },
         {
-          "callsign": "Mozin",
+          "callsign": "~~Mozin~~",
           "alias": "m0-5687c2",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///NDL-C-DEEP-STATION//a98c3e28-ad4a-4f89-bcd9-501464e960da",
+          "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "Horus",
           "frame": "Manticore",
           "mech": "Fulgur"
@@ -150,24 +155,24 @@ export default {
           "mech": "Friendly Fire"
         },
         {
-          "callsign": "Roro",
+          "callsign": "~~Roro~~",
           "alias": "Rorotan",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///NDL-C-DEEP-STATION//6f572259-6946-41bf-931a-e0543709e892",
+          "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "SSC",
           "frame": "Death's Head",
           "mech": "SuperStrong☆Roroちゃん"
         },
         {
-          "callsign": "Sleepwalker",
+          "callsign": "~~Sleepwalker~~",
           "alias": 'Nikolai Petrov',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
+          "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "SSC",
           "frame": "Mourning Clock",
           "mech": "Displacer Beast"
         },
       ],
       "header": {
-        "planet": "Norban",
+        "planet": "U.N. NEMI",
         "year": "5014u",
         "system": "Phi-4",
         "gate": "Phi-4",
