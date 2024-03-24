@@ -131,7 +131,7 @@ export default {
       ],
       "pilots": [
         {
-          "callsign": "~~Condor~~",
+          "callsign": "Condor",
           "alias": "Lotus Sun",
           "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "IPS-N",
@@ -139,7 +139,7 @@ export default {
           "mech": "Roger Smith"
         },
         {
-          "callsign": "~~Mozin~~",
+          "callsign": "Mozin",
           "alias": "m0-5687c2",
           "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "Horus",
@@ -155,7 +155,7 @@ export default {
           "mech": "Friendly Fire"
         },
         {
-          "callsign": "~~Roro~~",
+          "callsign": "Roro",
           "alias": "Rorotan",
           "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "SSC",
@@ -163,7 +163,7 @@ export default {
           "mech": "SuperStrong☆Roroちゃん"
         },
         {
-          "callsign": "~~Sleepwalker~~",
+          "callsign": "Sleepwalker",
           "alias": 'Nikolai Petrov',
           "code": "DELETED: NOW MARKED FUGITIVE",
           "corpro": "SSC",
