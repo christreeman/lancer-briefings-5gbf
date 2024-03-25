@@ -128,6 +128,11 @@ export default {
           "name": "Stop Fugitives from Escaping U.N. NEMI with GalSim AI",
           "status": "failure"
         },
+        {
+          "slug": "008",
+          "name": "Locate the Escaped Fugitives and Missing AI",
+          "status": "start"
+        },
       ],
       "pilots": [
         {
