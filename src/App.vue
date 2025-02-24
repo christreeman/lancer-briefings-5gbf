@@ -89,103 +89,140 @@ export default {
 
   data() {
     return {
-      "mission_slug": "008",
+      "mission_slug": "101",
       "current_md": "",
       "events": "",
       "missions": [
-        {
-          "slug": "001",
-          "name": "Establish FOB-Saber",
-          "status": "success"
-        },
-        {
-          "slug": "002",
-          "name": "Recover VIPs",
-          "status": "success"
-        },
-        {
-          "slug": "003",
-          "name": "Investigate Strange Signal",
-          "status": "success"
-        },
-        {
-          "slug": "006",
-          "name": "Capture or Eliminate Toren Eleppo",
-          "status": "success"
-        },
-        {
-          "slug": "004",
-          "name": "Recover the USS ENNA's GalSim AI",
-          "status": "success"
-        },
-        {
-          "slug": "005",
-          "name": "Destory the SSC Printers on Norban",
-          "status": "failure"
-        },
-        {
-          "slug": "007",
-          "name": "Stop Fugitives from Escaping U.N. NEMI with GalSim AI",
-          "status": "failure"
-        },
-        {
-          "slug": "008",
-          "name": "Locate the Escaped Fugitives and Missing AI",
+        { 
+          "slug": "101",
+          "name": "Deliver U.N. The Bleak December to The Long Rim",
           "status": "start"
         },
+        // {
+        //   "slug": "001",
+        //   "name": "Establish FOB-Saber",
+        //   "status": "success"
+        // },
+        // {
+        //   "slug": "002",
+        //   "name": "Recover VIPs",
+        //   "status": "success"
+        // },
+        // {
+        //   "slug": "003",
+        //   "name": "Investigate Strange Signal",
+        //   "status": "success"
+        // },
+        // {
+        //   "slug": "006",
+        //   "name": "Capture or Eliminate Toren Eleppo",
+        //   "status": "success"
+        // },
+        // {
+        //   "slug": "004",
+        //   "name": "Recover the USS ENNA's GalSim AI",
+        //   "status": "success"
+        // },
+        // {
+        //   "slug": "005",
+        //   "name": "Destory the SSC Printers on Norban",
+        //   "status": "failure"
+        // },
+        // {
+        //   "slug": "007",
+        //   "name": "Stop Fugitives from Escaping U.N. NEMI with GalSim AI",
+        //   "status": "failure"
+        // },
+        // {
+        //   "slug": "008",
+        //   "name": "Locate the Escaped Fugitives and Missing AI",
+        //   "status": "start"
+        // },
       ],
       "pilots": [
         {
-          "callsign": "Condor",
-          "alias": "Lotus Sun",
-          "code": "DELETED: NOW MARKED FUGITIVE",
-          "corpro": "IPS-N",
-          "frame": "Zheng",
-          "mech": "Roger Smith"
+          "callsign": "Brioche",
+          "alias": "Yalda",
+          "code": "e0730e0ebf94ce1bdab1a5c784d095deea365bea6d26bd34e272576b58485e07",
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "The Magic Number"
         },
         {
-          "callsign": "Mozin",
-          "alias": "m0-5687c2",
-          "code": "DELETED: NOW MARKED FUGITIVE",
-          "corpro": "Horus",
-          "frame": "Manticore",
-          "mech": "Fulgur"
+          "callsign": "JSON",
+          "alias": "Dough Boy Johnson",
+          "code": "ea2dfedd24078166506e18363ca09658069225a3dac706a527a02a4c5458e351",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Hammerhead Nova"
         },
         {
-          "callsign": "Necromancer",
-          "alias": "Zoran Marcovic",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
-          "corpro": "SSC",
-          "frame": "Death's Head",
-          "mech": "Friendly Fire"
+          "callsign": "Rodeo",
+          "alias": "Colt Clayborne",
+          "code": "356c2fc406e4d06f053e3919e06a0375e232aff492a0b8fc8f94f3d4e09a40fe",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Bronco Sally"
         },
         {
-          "callsign": "Roro",
-          "alias": "Rorotan",
-          "code": "DELETED: NOW MARKED FUGITIVE",
-          "corpro": "SSC",
-          "frame": "Death's Head",
-          "mech": "SuperStrong☆Roroちゃん"
+          "callsign": "Sagemaker",
+          "alias": "Carver",
+          "code": "860020aa49bd276c5b4d5f1255a8a3de84e5130d867e8bdcca6f2c57a5055585",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "God Carved from the Wood of our Hunger"
         },
-        {
-          "callsign": "Sleepwalker",
-          "alias": 'Nikolai Petrov',
-          "code": "DELETED: NOW MARKED FUGITIVE",
-          "corpro": "SSC",
-          "frame": "Mourning Clock",
-          "mech": "Displacer Beast"
-        },
+        // {
+        //   "callsign": "Condor",
+        //   "alias": "Lotus Sun",
+        //   "code": "DELETED: NOW MARKED FUGITIVE",
+        //   "corpro": "IPS-N",
+        //   "frame": "Zheng",
+        //   "mech": "Roger Smith"
+        // },
+        // {
+        //   "callsign": "Mozin",
+        //   "alias": "m0-5687c2",
+        //   "code": "DELETED: NOW MARKED FUGITIVE",
+        //   "corpro": "Horus",
+        //   "frame": "Manticore",
+        //   "mech": "Fulgur"
+        // },
+        // {
+        //   "callsign": "Necromancer",
+        //   "alias": "Zoran Marcovic",
+        //   "code": "4be26ce9-923b-4069-b6c9-76437d4be455///NDL-C-DEEP-STATION//056940c6-8d55-4190-8e85-57caa043cb1a",
+        //   "corpro": "SSC",
+        //   "frame": "Death's Head",
+        //   "mech": "Friendly Fire"
+        // },
+        // {
+        //   "callsign": "Roro",
+        //   "alias": "Rorotan",
+        //   "code": "DELETED: NOW MARKED FUGITIVE",
+        //   "corpro": "SSC",
+        //   "frame": "Death's Head",
+        //   "mech": "SuperStrong☆Roroちゃん"
+        // },
+        // {
+        //   "callsign": "Sleepwalker",
+        //   "alias": 'Nikolai Petrov',
+        //   "code": "DELETED: NOW MARKED FUGITIVE",
+        //   "corpro": "SSC",
+        //   "frame": "Mourning Clock",
+        //   "mech": "Displacer Beast"
+        // },
       ],
       "header": {
-        "planet": "U.N. NEMI",
-        "year": "5014u",
-        "system": "Phi-4",
-        "gate": "Phi-4",
-        "ring": "Denali-Line",
-        "headerTitle": "5GBF",
-        "headerSubtitle": "Union Information Bureau",
-        "subheaderTitle": "Intelligence Operatives",
-        "subheaderSubtitle": "5-Golf-Bravo-Foxtrot",
+        "planet": "U.N. THE BLEAK DECEMBER",
+        "year": "5017u",
+        "system": "The Long Rim",
+        "gate": "Rao-Co",
+        "ring": "Annamite-Line",
+        "headerTitle": "//UNDEFINED//",
+        "headerSubtitle": "UNION NAVAL DEPARTMENT",
+        "subheaderTitle": "Newly Minted Lancers",
+        "subheaderSubtitle": "UNDEFINED",
       },
       "options":{
         "eventsMarkdownPerMission": true
