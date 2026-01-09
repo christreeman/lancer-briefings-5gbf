@@ -219,10 +219,10 @@ export default {
         "system": "The Long Rim",
         "gate": "Rao-Co",
         "ring": "Annamite-Line",
-        "headerTitle": "//UNDEFINED//",
+        "headerTitle": "TR13 //",
         "headerSubtitle": "UNION NAVAL DEPARTMENT",
         "subheaderTitle": "Newly Minted Lancers",
-        "subheaderSubtitle": "UNDEFINED",
+        "subheaderSubtitle": "Tactical Ricochet One Three",
       },
       "options":{
         "eventsMarkdownPerMission": true
